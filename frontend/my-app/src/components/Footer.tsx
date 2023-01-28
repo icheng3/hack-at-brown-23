@@ -1,21 +1,16 @@
-import React from "react";
-import { Row, Image } from "react-bootstrap";
-import twitter from "../img/twitter.png";
-import github from "../img/github.png";
-import linkedin from "../img/linkedin.png";
+import github from "../img/GitHub.png";
+
 
 export const Footer = () => {
   return (
     <div className="footer-container">
-      <Row className="social-media">
-        <ul>
-          <li>
-            <a href="www.Github.com">
-              {/* <Image src={github} /> */}
-            </a>
-          </li>
-        </ul>
-      </Row>
+    <section >
+        <a href="https://github.com/icheng3/hack-at-brown-23" target="_blank" rel="noreferrer">
+                <img className = "github-logo" src={github} alt="GitHub logo"></img>
+                {/* <img src={require(github)} /> */}
+              </a>
+
+    </section>
     </div>
   );
 };

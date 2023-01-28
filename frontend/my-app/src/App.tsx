@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Map from "./pages/Map";
 import Contact from "./pages/Contact";
 import { NavBar } from './components/NavBar';
+import { Footer } from './components/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/map" element={<Map/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
+      <Footer/>
       </BrowserRouter>
     </div>
   );
