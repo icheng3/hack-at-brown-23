@@ -8,9 +8,9 @@ Navigation bar (for router to go between pages)
 
 export const NavBar = () => {
   return (
-    <Navbar sticky="top"  expand="md">
+    <Navbar sticky="top"  expand="md" className="Navigation-Bar">
       <Container>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
           <div className="container">
@@ -24,5 +24,6 @@ export const NavBar = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
   );
 };

@@ -51,6 +51,21 @@ function WeatherArea(){
     )
 }
 
+function CampsiteArea(){
+    return (
+        <>
+            <div className="card" >
+            <section className="section dark">
+            <h5 className="strong">
+                <strong>Campsite Name: {}</strong>
+            </h5>
+            <p>Location : {}</p>
+            </section>
+            </div>
+        </>
+    )
+}
+
 
 function InformationArea(){
     return (
@@ -61,10 +76,8 @@ function InformationArea(){
             <WeatherArea />
             </Col>
             <Col>
-            Available Campgrounds Info
+            <CampsiteArea />
             </Col>
-
-
         </Row>
          </Container >  
         </>
