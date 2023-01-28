@@ -13,9 +13,13 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
+          <div className="container">
+          <div className="row">
             <Link to="/">Home</Link>
             <Link to="/map">Map</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Contact</Link> 
+          </div>
+          </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

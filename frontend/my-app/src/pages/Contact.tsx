@@ -23,7 +23,7 @@ export const Contact = () => {
       <Container className="contact-form-container">
         
         <Form.Floating>
-          <h1>Contact Me</h1>
+          <h1>Contact Us</h1>
           <Form.Group>
             <Form.Label>Name</Form.Label>
             <Form.Control

@@ -54,3 +54,5 @@ body {
   right: 0px;
   margin-bottom: 0px;
 }
+
+.Map-Area{display:flex; flex-direction:row;}
