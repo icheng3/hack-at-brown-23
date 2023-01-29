@@ -1,2 +1,2 @@
-const key = 'AIzaSyAOnzaryfgG4GTyobiHwcAu4zuCp7jle9c'
+const key = 'AIzaSyCf_-n6gOeRNRWkn7wTd3QzO1wazkepUo0'
 export default key;
